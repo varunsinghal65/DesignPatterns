@@ -1,4 +1,4 @@
-package com.varun.factory;
+package com.varun.creational.factory;
 /**
  * 
  * factory design pattern (https://dzone.com/articles/factory-method-design-pattern)

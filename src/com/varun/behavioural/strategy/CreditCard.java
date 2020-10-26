@@ -1,4 +1,4 @@
-package com.varun.strategy;
+package com.varun.behavioural.strategy;
 
 public class CreditCard implements PaymentStrategy {
 

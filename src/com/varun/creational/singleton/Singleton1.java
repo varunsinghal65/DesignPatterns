@@ -1,4 +1,4 @@
-package com.varun.singleton;
+package com.varun.creational.singleton;
 
 /**
  * Singleton Design pattern :

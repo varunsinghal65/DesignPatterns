@@ -1,4 +1,4 @@
-package com.varun.factory;
+package com.varun.creational.factory;
 
 public abstract class ShapeFactory {
 

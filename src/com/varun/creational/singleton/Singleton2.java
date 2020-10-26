@@ -1,4 +1,4 @@
-package com.varun.singleton;
+package com.varun.creational.singleton;
 
 /**
  * 
@@ -7,7 +7,10 @@ package com.varun.singleton;
  * "Synchronized" keyword ensures that only one thread can access
  * getInstance(),while other threads wait for their turn, this leads to a
  * performance overhead in the multi threaded environment
- * 
+ *
+ * https://stackoverflow.com/questions/21812396/what-is-the-use-of-static-synchronized-method-in-java/21812514#:~:text=In%20simple%20words%20a%20static,the%20method%20at%20a%20time.
+ *
+ *
  * @author Varrox
  *
  */
