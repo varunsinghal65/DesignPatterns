@@ -5,7 +5,8 @@ package com.varun.creational.factory;
  * 
  * It is used when
  * 
- * 1. when logic for creation of objects is to be hidden/ decoupled from client (SRP, complex objects, separation of concerns)
+ * 1. when logic for creation of objects is to be hidden/ decoupled from client (SRP,
+ * complex objects, separation of concerns)
  * 2. you have a base class and want to instantiate child classes based on input configuration
  * 3. you want to code to the interfaces/abstract classes instead of implementation.
  * 			--> enforces O in S"O"LID

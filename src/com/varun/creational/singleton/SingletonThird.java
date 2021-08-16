@@ -13,15 +13,15 @@ package com.varun.creational.singleton;
  *
  */
 
-public class Singleton3 {
+public class SingletonThird {
 
-	private static Singleton3 instance = null;
+	private static SingletonThird instance = null;
 
-	private Singleton3() {
+	private SingletonThird() {
 		System.out.println("Constructor called");
 	}
 
-	public static Singleton3 getInstance() {
+	public static SingletonThird getInstance() {
 		/**
 		 * null check 1, will prevent access to syncronized block (this block is source
 		 * of performance degradation)after 1st object has been created of Singelton3.
@@ -32,7 +32,7 @@ public class Singleton3 {
 			/**
 			 * this is the lock
 			 */
-			synchronized (Singleton3.class) {
+			synchronized (SingletonThird.class) {
 				/**
 				 * Null check 2, let's say when the app started, 3 threads entered here at the
 				 * same time JVM will determine the fastest, and allow it to enter and block
@@ -40,7 +40,7 @@ public class Singleton3 {
 				 * will not be allowed, since instance is no more null
 				 */
 				if (instance == null) {
-					instance = new Singleton3();
+					instance = new SingletonThird();
 				}
 			}
 		}

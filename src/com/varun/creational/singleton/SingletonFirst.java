@@ -14,20 +14,20 @@ package com.varun.creational.singleton;
  *
  */
 
-public class Singleton1 {
+ class SingletonFirst {
 	
 	/**
 	 * Preventing external instantiations
 	 */
-	private Singleton1() {
+	private SingletonFirst() {
 		System.out.println("Constructor called");
 	}
 	
-	private static Singleton1 instance = null;
+	private static SingletonFirst instance = null;
 	
-	public static Singleton1 getInstance() {
+	public static SingletonFirst getInstance() {
 		if (instance == null) {
-			instance = new Singleton1();
+			instance = new SingletonFirst();
 			return instance;
 		} else {
 			return instance;

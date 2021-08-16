@@ -1,4 +1,4 @@
-package com.varun.behavioural.strategy.ChainOfResponsibility;
+package com.varun.behavioural.ChainOfResponsibility;
 
 /**
  * https://www.journaldev.com/1617/chain-of-responsibility-design-pattern-in-java#chain-of-responsibility-design-pattern

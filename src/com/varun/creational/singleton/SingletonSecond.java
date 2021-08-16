@@ -14,17 +14,17 @@ package com.varun.creational.singleton;
  * @author Varrox
  *
  */
-public class Singleton2 {
+public class SingletonSecond {
 
-	private static Singleton2 instance = null;
+	private static SingletonSecond instance = null;
 
-	private Singleton2() {
+	private SingletonSecond() {
 		System.out.println("Constructor called");
 	}
 
-	public static synchronized Singleton2 getInstance() {
+	public static synchronized SingletonSecond getInstance() {
 		if (instance == null) {
-			instance = new Singleton2();
+			instance = new SingletonSecond();
 			return instance;
 		} else {
 			return instance;
